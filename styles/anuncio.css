@@ -1,0 +1,70 @@
+.anuncio{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-between;
+  
+    margin: 10em 0 2em 0;
+  
+ }
+ .anuncio__descricao{
+     font-size: 48px;
+     font-weight: 600;
+     padding: 0.5em;
+     
+ }
+ .anuncio__titulo{
+     color: var(--vinho);
+     font-size: 14px;
+     font-weight: 600;
+     background-color: rgba(142, 36, 36, 0.05);
+     color: var(--vinho);
+     padding: 0.5em 0.8em;
+     border: 1px solid rgba(142, 36, 36, 0.05) ;
+     border-radius: 36px ;
+     font-weight: 500;
+   
+ }
+ .anuncio__texto{
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 1.8em;
+     color: var(--cinza);
+ }
+ .anuncio__imagem{
+    margin: 3em;
+ }
+ .topico{
+    align-self: flex-start;
+    margin: 0 20em;
+    
+ }
+ .topico__titulo{
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .vaga{
+    border: 1px solid var(--cinza-claro);
+    border-radius:16px ;
+    padding: 2em 25em 2em 2em;
+    margin:2em;
+    
+ }
+
+ .titulo-vaga {
+ font-size: 18px;
+ font-weight: 500;
+}
+
+.informacoes {
+    color: var(--cinza);
+    padding: 2em 3em 0 0;
+    
+      
+}
+.informacoes__tempo{
+    padding-right: 2em;
+}
+ 
+
+ 

@@ -1,0 +1,64 @@
+.cadastro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: var(--cinza-footer);
+    margin-top: 6em;
+
+}
+.cadastro__item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+    margin-bottom: 8em;
+}
+.cadastro__descricao{
+   
+    font-size: 36px;
+    font-weight: 600;
+}
+.cadastro__texto{
+    margin: 1em 0em 1em 0 ;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+
+}
+.cadastro__formato{
+ margin: 2em;
+
+}
+
+.cadastro__botao{
+    background-color: var(--vinho);
+    color: var(--branco);
+    padding: 0.7em;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 1em;
+
+}
+.cadastro__barra{
+    padding: 1em 15em 1em 0.5em;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+
+}
+.copyright{
+    color: var(--cinza);
+    font-weight: 400;
+}
+ 
+
+
+::placeholder{
+    width: 100%;
+    font-size: 16px;
+    padding: 4em 0;
+
+
+}

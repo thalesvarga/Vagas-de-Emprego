@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* <--- Somente importaçoes de css.---> */
+@import url(/styles/cabecalho.css);
+@import url(/styles/banner.css);
+@import url(/styles/info.css);
+@import url(/styles/anuncio.css);
+@import url(/styles/opniao.css);
+@import url(/styles/footer.css);
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+:root{
+--branco:#FFFFFF;
+--cinza:#667085;
+--cinza-titulo: #3A404E;
+--vinho: #8E2424;
+--preto:#101828;
+--cinza-claro:#EAECF0;
+--cinza-footer: #F9FAFB;
+;
+
+
+--font-family:"Inter";
+
+}
+body{
+font-family:var(--font-family);
+background-color: var(--branco);
+font-size: 16px;
+font-weight: 500;
+color: var(--preto);
+}
