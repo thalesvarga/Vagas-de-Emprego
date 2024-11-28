@@ -1,4 +1,4 @@
- ![Optimus Tech] (img/optimusTech.png)
+ ![Optimus Tech - Vagas de Emprego](img/optimusTech.png)
 
  ## Resumo do Projeto
 
